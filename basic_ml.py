@@ -1,5 +1,3 @@
-""" basic_ml.py """
-
 import pandas as pd
 import seaborn as sns; sns.set(font='DejaVu Sans')
 import matplotlib.pyplot as plt
@@ -101,7 +99,7 @@ class Trial_ML():
             'lr': lr.predict(test_feature),
             'svc': svc.predict(test_feature)
         }
-        # ファイル出力
+        # File Output
         for key, value in pred_1.items():
             pd.concat(
                 [

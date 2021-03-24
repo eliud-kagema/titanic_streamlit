@@ -7,7 +7,7 @@ from data_get import Data_Get
 from preprocessing import Preprocessing
 from create_train_test import Create_Train_Test
 from basic_ml import Trial_ML
-import optuna_ml as om
+import optuna as om
 
 st.title('Titanic - Machine Learning from Disaster')
 
